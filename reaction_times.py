@@ -1,6 +1,6 @@
 import numpy as np
 
-import mne
+from mne import events_from_annotations
 
 from utils.utils import *
 
