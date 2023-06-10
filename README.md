@@ -15,6 +15,10 @@ The library relies on the following Python modules:
 
 ## Examples
 
+* Compute states of brain activity w clustering algorithms: [clustering.py](/../master/clustering.py)
+* Perform backfitting and compute state statistics: [backfitting.py](/../master/backfitting.py)
+* Compute brain control cost: [cost.py](/../master/cost.py)
+
 #### Short example
 
 ```python
