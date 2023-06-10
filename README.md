@@ -2,7 +2,7 @@
 
 Solving the Schroedinger bridge problem for computing brain control cost.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/images/figure1.png?raw=true)
+![alt text](/../master/images/figure1.png?raw=true)
 
 ## Installation
 
