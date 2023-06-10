@@ -1,6 +1,6 @@
 # Brain control cost
 
-Solving the Schroedinger bridge problem for computing brain control cost.
+Solving the Schr&ouml;dinger bridge problem for computing brain control cost.
 
 ![alt text](/../master/images/figure1.png?raw=true)
 
