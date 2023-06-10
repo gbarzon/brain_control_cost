@@ -1,6 +1,19 @@
 import numpy as np
 import ot
 
+# Define utils
+def KL(a, b):
+    tmp = a * ( np.log(a) - np.log(b) )
+    tmp[np.isnan(tmp)] = 0
+    tmp[np.isinf(tmp)] = 0
+    return tmp.sum()
+
+def f(G):
+    return np.sum(G * np.log(G))
+
+def df(G):
+    return np.log(G) + 1.
+
 ### Define infos
 n_subj = 44
 subjects = np.arange(n_subj) + 1
