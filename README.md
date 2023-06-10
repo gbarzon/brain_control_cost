@@ -10,7 +10,7 @@ The library relies on the following Python modules:
 - Numpy
 - Scipy
 - Pandas
-- MNE
+- [MNE](https://mne.tools/stable/index.html)
 - [POT](https://github.com/PythonOT/POT): Python Optimal Transport
 
 ## Examples
