@@ -25,10 +25,19 @@ def load_dataset(subj, sfreq=125, lfreq=1, hfreq=40):
     if len(subj)<2:
         subj = '0'+subj
         
-    folder = 'data_500_1_100/'
+    folder = '/data/barzon/stroop/'
     name = folder + f'ss{subj}_clean.set'
     
-    return read_raw_eeglab(name, preload=True).resample(sfreq).filter(lfreq, hfreq)
+    # Read dataset
+    data = read_raw_eeglab(name, preload=True)
+    
+    if sfreq is not None:
+        data = data.resample(sfreq)
+        
+    if lfreq is not None or hfreq is not None:
+        data = data.filter(lfreq, hfreq)
+        
+    return data
 
 def load_info(subj=1):
     return load_dataset(subj).info
