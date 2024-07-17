@@ -6,18 +6,16 @@ Solving the Schr&ouml;dinger bridge problem for computing brain control cost.
 
 ## Installation
 
-The library relies on the following Python modules:
-- Numpy
-- Scipy
-- Pandas
-- [MNE](https://mne.tools/stable/index.html)
+The library relies on the following Python packages:
+- [MNE](https://mne.tools/stable/index.html): package for exploring, visualizing, and analyzing human neurophysiological data
+- [Pycrostates](https://pycrostates.readthedocs.io/en/latest/): package for analyzing EEG microstates
 - [POT](https://github.com/PythonOT/POT): Python Optimal Transport
 
 ## Examples
 
-* Compute states of brain activity w clustering algorithms: [clustering.py](/../master/clustering.py)
-* Perform backfitting and compute state statistics: [backfitting.py](/../master/backfitting.py)
-* Compute brain control cost: [cost.py](/../master/cost.py)
+* Compute states of brain activity w clustering algorithms and related statistics: [Pycrostates_clustering.ipynb](/../master/Pycrostates_clustering.ipynb)
+* Compute brain control cost in different conditions: [Pycrostates_data_analysis.ipynb](/../master/Pycrostates_data_analysis.ipynb)
+* Visualize the results: [Figures.ipynb](/../master/Figures.ipynb)
 
 #### Short example
 
@@ -36,3 +34,5 @@ cost = KL(Pij, Qij)
 [2] Cuturi, M. (2013). [Sinkhorn distances: Lightspeed computation of optimal transport](https://arxiv.org/pdf/1306.0895.pdf). In Advances in Neural Information Processing Systems (pp. 2292-2300).
 
 [3] Kawakita, G., Kamiya, S., Sasai, S., Kitazono, J., & Oizumi, M. (2022). [Quantifying brain state transition cost via Schrödinger bridge](https://direct.mit.edu/netn/article/6/1/118/107814/Quantifying-brain-state-transition-cost-via). Network Neuroscience, 6(1), 118-134.
+
+[4] Férat, V., Scheltienne, M., Brunet, D., Ros, T., & Michel, C. (2022). [Pycrostates: a Python library to study EEG microstates](https://joss.theoj.org/papers/10.21105/joss.04564). Journal of Open Source Software, 7(78), 4564.
