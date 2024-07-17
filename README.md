@@ -1,6 +1,8 @@
-# Brain control cost
+# EEG microstate transition cost correlates with task demands
 
-Solving the Schr&ouml;dinger bridge problem for computing brain control cost.
+Solving the Schr&ouml;dinger bridge problem for computing brain transition cost.
+
+See our work: Barzon, G., Ambrosini, E., Vallesi, A., & Suweis, S. (2023). [EEG microstate transition cost correlates with task demands](https://www.biorxiv.org/content/10.1101/2023.12.07.570625v2.abstract). bioRxiv, 2023-12.
 
 ![alt text](/../master/images/figure1.png?raw=true)
 
