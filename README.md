@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13709700.svg)](https://doi.org/10.5281/zenodo.13709700)
 
-Solving the Schr&ouml;dinger bridge problem for computing brain transition cost.
+Solving the Schr&ouml;dinger bridge problem for computing brain transition cost from neurophysiological data.
 
 See our work: Barzon, G., Ambrosini, E., Vallesi, A., & Suweis, S. (2023). [EEG microstate transition cost correlates with task demands](https://www.biorxiv.org/content/10.1101/2023.12.07.570625v2.abstract). bioRxiv, 2023-12.
 
