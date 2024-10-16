@@ -1,4 +1,4 @@
-# EEG microstate transition cost correlates with task demands
+# EEG microstate transition cost & task demands
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13709700.svg)](https://doi.org/10.5281/zenodo.13709700)
 
