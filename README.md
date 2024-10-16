@@ -1,10 +1,10 @@
 # EEG microstate transition cost & task demands
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13709700.svg)](https://doi.org/10.5281/zenodo.13709700)
-
 Solving the Schr&ouml;dinger bridge problem for computing brain transition cost from neurophysiological data.
 
 See our work: Barzon, G., Ambrosini, E., Vallesi, A., & Suweis, S. (2024). [EEG microstate transition cost correlates with task demands](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012521). PLOS Comp. Bio., 2024.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13709700.svg)](https://doi.org/10.5281/zenodo.13709700)
 
 ![alt text](/../master/images/figure1.png?raw=true)
 
