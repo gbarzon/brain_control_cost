@@ -1,6 +1,6 @@
 old*
-HMM/*
+#HMM/*
 figures/*
 **/__pycache__
-fMRI/*
+#fMRI/*
 .ipynb_checkpoints/
